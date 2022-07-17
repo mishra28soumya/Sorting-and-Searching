@@ -8,13 +8,6 @@ function quickSort(arr, s, e){
     quickSort(arr,p+1,e);
 }
 
-function swap(a,b){
-    let t = a;
-    a = b;
-    b = t;
-
-}
-
 function partition(arr, s, e){
     let pivot = arr[s];
     let c = 0;
